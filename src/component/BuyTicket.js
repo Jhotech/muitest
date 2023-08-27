@@ -21,7 +21,7 @@ export default function BuyTicket() {
 
             <Stack spacing={2} direction="row" sx={{ mb: 1 }} alignItems="center">
                 <VolumeDown />
-                <Slider aria-label="Volume" value={value} />
+                <Slider aria-label="Volume" />
                 <VolumeUp />
             </Stack>
             <Slider disabled defaultValue={30} aria-label="Disabled slider" />
